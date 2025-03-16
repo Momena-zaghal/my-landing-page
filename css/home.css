@@ -1,0 +1,81 @@
+/*services section*/
+.services {
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* service card styling */
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+.service img {
+  width: 100%;
+  border-radius: 8px;
+}
+.service h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+.service p {
+  font-size: 1rem;
+  color: white;
+  margin-top: 10px;
+}
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.hero {
+  background: rgba(0, 0, 0, 0.5);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  padding: 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  background: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.hero .btn:hover {
+  background: #cc5500;
+}
