@@ -19,6 +19,7 @@
   gap: 40px;
   max-width: 1000px;
   margin: auto;
+  flex: 1;
 }
 .about-text {
   flex: 1;
