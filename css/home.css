@@ -32,6 +32,11 @@
   transition: transform 0.3s ease-in-out;
   text-align: center;
 }
+.service figcaption {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #ddd;
+}
 .service img {
   width: 100%;
   border-radius: 8px;
